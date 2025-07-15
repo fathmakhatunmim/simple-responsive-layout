@@ -1,0 +1,29 @@
+body{
+    width: 1140px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+.login-sytem{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+
+}
+
+.login-sytem input{
+    margin-top: 20px;
+}
+.login-from-container{
+    display: flex;
+    justify-content: center;
+    
+}
