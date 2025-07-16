@@ -25,3 +25,17 @@ img{
     grid-template-columns: repeat(2, 1fr);
     gap:3px;
 }
+
+/* responsive media quary */
+@media screen and (max-width:770px){
+    
+    .row{
+        flex-direction: column;
+        height: auto;
+    }
+    .square{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap:3px;
+}
+}
